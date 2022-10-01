@@ -40,10 +40,12 @@
         "webpack-dev-server": "^4.10.0"
     },
     "dependencies": {
+        "@chakra-ui/icons": "^2.0.10",
         "@chakra-ui/react": "^2.2.8",
         "@emotion/react": "^11.10.0",
         "@emotion/styled": "^11.10.0",
-        "@fontsource/poppins": "^4.5.9",
+        "@fontsource/open-sans": "^4.5.11",
+        "@react-google-maps/api": "^2.13.1",
         "framer-motion": "^7.2.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",

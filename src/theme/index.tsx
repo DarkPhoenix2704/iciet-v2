@@ -4,12 +4,15 @@ const theme = extendTheme({
     styles: {
         global: {
             '*': {
-                fontFamily: 'Poppins',
+                fontFamily: 'Open Sans',
             },
         },
     },
     colors: {
-        brand: '#0061A1',
+        brand: {
+            100: '#e2f1fb',
+            900: '#0061A1',
+        },
         accent: '#E87722',
     },
 });

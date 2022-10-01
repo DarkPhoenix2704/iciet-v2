@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => (
     <HStack
         as="nav"
-        display={{ base: 'none', md: 'flex' }}
+        display={{ base: 'none', lg: 'flex' }}
         alignItems="center"
-        bg="brand"
+        bg="brand.900"
         color="white"
         paddingBlock="5px"
         justifyContent="center"

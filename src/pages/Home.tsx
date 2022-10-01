@@ -35,7 +35,7 @@ const Home = () => (
             marginBlockStart="9px"
             width="125px"
             paddingBlock="18px"
-            background="brand"
+            background="brand.900"
             color="white"
             _hover={{ background: 'black', color: 'white' }}
         >

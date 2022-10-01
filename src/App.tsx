@@ -8,12 +8,16 @@ import Home from './pages/Home';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import Speakers from './pages/Speakers';
+import Contact from './pages/Contact';
+import Dates from './components/Dates';
+import CallForPaper from './pages/CallForPaper';
 // import Marquee from './components/Marquee';
 
 const App = () => (
     <ChakraProvider theme={theme}>
         <BrowserRouter>
             <Image src={Header} alt="Header" width="100vw" />
+            <Dates />
             <NavBar />
             {
                 // <Marquee />
@@ -22,6 +26,8 @@ const App = () => (
                 <Route path="/" element={<Home />} />
                 <Route path="/committee" element={<Committee />} />
                 <Route path="/speakers" element={<Speakers />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/cfp" element={<CallForPaper />} />
             </Routes>
             <Footer />
         </BrowserRouter>

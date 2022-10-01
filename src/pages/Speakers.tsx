@@ -4,7 +4,7 @@ import Layout from '../layout';
 
 const Speakers = () => (
     <Layout>
-        <Container minH="xl">
+        <Container minH="xl" minW="fit-content">
             <Heading fontWeight="600" marginBlock="18px" fontSize="26px">
                 Speakers Will be Announced Soon
             </Heading>
