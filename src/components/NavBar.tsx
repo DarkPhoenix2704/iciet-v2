@@ -7,6 +7,8 @@ const NavBar = () => (
         as="nav"
         display={{ base: 'none', md: 'flex' }}
         alignItems="center"
+        bg="brand"
+        color="white"
         paddingBlock="5px"
         justifyContent="center"
         columnGap="20px"
@@ -18,7 +20,8 @@ const NavBar = () => (
                 padding="5px"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Home
@@ -31,7 +34,8 @@ const NavBar = () => (
                 fontWeight="light"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Committee
@@ -44,7 +48,8 @@ const NavBar = () => (
                 fontWeight="light"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Call For Papers
@@ -57,7 +62,8 @@ const NavBar = () => (
                 fontWeight="light"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Publication
@@ -70,7 +76,8 @@ const NavBar = () => (
                 fontWeight="light"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Registration
@@ -83,7 +90,8 @@ const NavBar = () => (
                 fontWeight="light"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Speakers
@@ -96,7 +104,8 @@ const NavBar = () => (
                 fontWeight="light"
                 _hover={{
                     textDecoration: 'underline',
-                    textDecorationColor: '#000',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
                 }}
             >
                 Contact
