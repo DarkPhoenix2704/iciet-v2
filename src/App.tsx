@@ -5,6 +5,7 @@ import Header from '../assets/Header.svg';
 import theme from './theme';
 import Home from './pages/Home';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 // import Marquee from './components/Marquee';
 
 const App = () => (
@@ -18,6 +19,7 @@ const App = () => (
             <Routes>
                 <Route path="/" element={<Home />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     </ChakraProvider>
 );

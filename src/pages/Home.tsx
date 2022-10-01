@@ -34,7 +34,7 @@ const Home = () => (
         <Button
             marginBlockStart="9px"
             width="125px"
-            paddingBlock="8px"
+            paddingBlock="18px"
             background="brand"
             color="white"
             _hover={{ background: 'black', color: 'white' }}
