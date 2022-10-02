@@ -29,10 +29,10 @@ const NavBar = () => {
             <VStack paddingInline="8px" display={open ? 'flex' : 'none'}>
                 <NavLink to="/">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
-                        paddingBlock="5px"
+                        paddingBlock="4px"
                         paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
@@ -45,11 +45,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/committee">
                     <Text
-                        fontSize="1.3rem"
-                        paddingInline="10px"
+                        fontSize="18px"
                         minWidth="100vw"
-                        paddingBlock="5px"
                         fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -61,11 +61,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/cfp">
                     <Text
-                        fontSize="1.3rem"
-                        paddingInline="10px"
+                        fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
-                        paddingBlock="5px"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -77,11 +77,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/publication">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="18px"
                         minWidth="100vw"
-                        paddingInline="10px"
                         fontWeight="light"
-                        paddingBlock="5px"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -93,11 +93,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/submission">
                     <Text
-                        fontSize="1.3rem"
-                        paddingInline="10px"
+                        fontSize="18px"
                         minWidth="100vw"
-                        paddingBlock="5px"
                         fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -109,11 +109,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/registration">
                     <Text
-                        fontSize="1.3rem"
-                        paddingInline="10px"
+                        fontSize="18px"
                         minWidth="100vw"
-                        paddingBlock="5px"
                         fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -125,11 +125,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/speakers">
                     <Text
-                        fontSize="1.3rem"
-                        paddingInline="10px"
+                        fontSize="18px"
                         minWidth="100vw"
-                        paddingBlock="5px"
                         fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -141,11 +141,11 @@ const NavBar = () => {
                 </NavLink>
                 <NavLink to="/contact">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="18px"
                         minWidth="100vw"
-                        paddingInline="10px"
-                        paddingBlock="5px"
                         fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
