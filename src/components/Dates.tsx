@@ -23,10 +23,10 @@ const Dates = () => {
                 paddingInline="16px"
                 paddingBlock="16px"
             >
-                <Heading fontWeight="600" fontSize="18px">
+                <Heading fontWeight="600" fontSize={{ base: '20px', lg: '20px' }}>
                     Important Dates
                 </Heading>
-                <UnorderedList fontSize="16px">
+                <UnorderedList marginBlock="5px" fontSize={{ base: '16px', lg: '18px' }}>
                     <ListItem>Call For Papers : 05 Oct - 28 Nov 2022</ListItem>
                     <ListItem>Paper Acceptance : 18 December 2022</ListItem>
                     <ListItem>Final Paper Acceptance: 15 February 2023</ListItem>

@@ -9,7 +9,7 @@ const Publications = () => (
         </Heading>
         <Container minH="xl" minW="fit-content">
             <Text fontSize="16px" marginBlock="18px" lineHeight="25px" textAlign="left">
-                Accepted and presented papers will be published in Journals
+                Accepted and presented papers will be published in IEEE Journals
             </Text>
         </Container>
     </Layout>
