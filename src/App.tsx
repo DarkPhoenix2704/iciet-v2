@@ -14,6 +14,9 @@ import CallForPaper from './pages/CallForPaper';
 import Registration from './pages/Registration';
 import Publications from './pages/Publications';
 import Submission from './pages/Submission';
+import NewsBlock from './components/NewsBlock';
+import Layout from './layout';
+import NotFound from './pages/NotFound';
 // import Marquee from './components/Marquee';
 
 const App = () => (
@@ -22,9 +25,9 @@ const App = () => (
             <Image src={Header} alt="Header" width="100vw" />
             <Dates />
             <NavBar />
-            {
-                // <Marquee />
-            }
+            <Layout>
+                <NewsBlock />
+            </Layout>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/committee" element={<Committee />} />
@@ -34,6 +37,7 @@ const App = () => (
                 <Route path="/registration" element={<Registration />} />
                 <Route path="/publication" element={<Publications />} />
                 <Route path="/submission" element={<Submission />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
             <Footer />
         </BrowserRouter>
