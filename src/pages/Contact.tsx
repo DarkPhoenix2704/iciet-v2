@@ -37,7 +37,7 @@ const Contact = () => (
                     </Text>
                 </Box>
             </Box>
-            <Box width={{ base: '98vw', lg: '50vw' }}>
+            <Box width={{ base: '95vw', lg: '50vw' }}>
                 <LoadScript googleMapsApiKey="AIzaSyAcVUpjSZSb2og3l7K6v6enQCLYdCSCIHM">
                     <AspectRatio ratio={4 / 3}>
                         <GoogleMap

@@ -39,7 +39,7 @@ const Home = () => (
             color="white"
             _hover={{ background: 'black', color: 'white' }}
         >
-            <NavLink to="/register">Register Now</NavLink>
+            <NavLink to="/registration">Register Now</NavLink>
         </Button>
         <Text fontSize="16px" marginBlock="18px" textAlign="justify" lineHeight="25px">
             ICIET-2022 is the IEEE International Conference organized by Ilahia College of

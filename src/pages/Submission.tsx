@@ -42,6 +42,7 @@ const Submission = () => (
             <Button
                 marginBlockEnd="9px"
                 width="125px"
+                paddingInline="5px"
                 paddingBlock="18px"
                 background="brand.900"
                 color="white"
