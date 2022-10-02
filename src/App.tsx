@@ -11,6 +11,9 @@ import Speakers from './pages/Speakers';
 import Contact from './pages/Contact';
 import Dates from './components/Dates';
 import CallForPaper from './pages/CallForPaper';
+import Registration from './pages/Registration';
+import Publications from './pages/Publications';
+import Submission from './pages/Submission';
 // import Marquee from './components/Marquee';
 
 const App = () => (
@@ -28,6 +31,9 @@ const App = () => (
                 <Route path="/speakers" element={<Speakers />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/cfp" element={<CallForPaper />} />
+                <Route path="/registration" element={<Registration />} />
+                <Route path="/publication" element={<Publications />} />
+                <Route path="/submission" element={<Submission />} />
             </Routes>
             <Footer />
         </BrowserRouter>

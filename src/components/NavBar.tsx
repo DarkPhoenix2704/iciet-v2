@@ -69,6 +69,20 @@ const NavBar = () => (
                 Publication
             </Text>
         </NavLink>
+        <NavLink to="/submission">
+            <Text
+                fontSize="1.3rem"
+                padding="5px"
+                fontWeight="light"
+                _hover={{
+                    textDecoration: 'underline',
+                    textDecorationColor: 'white',
+                    textUnderlineOffset: '5px',
+                }}
+            >
+                Submission
+            </Text>
+        </NavLink>
         <NavLink to="/registration">
             <Text
                 fontSize="1.3rem"

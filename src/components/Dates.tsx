@@ -3,7 +3,7 @@ import { CalendarIcon } from '@chakra-ui/icons';
 import React from 'react';
 
 const Dates = () => {
-    const [hovered, setHovered] = React.useState(false);
+    const [hovered, setHovered] = React.useState(true);
     return (
         <>
             <Box
@@ -13,6 +13,8 @@ const Dates = () => {
                 transition="all 0.5s"
                 transform={hovered ? 'translateX(-400px)' : 'translateX(0px)'}
                 textColor="white"
+                onMouseLeave={() => setHovered(false)}
+                onMouseEnter={() => setHovered(true)}
                 borderRadius="8px"
                 position="fixed"
                 right="-400px"
@@ -25,10 +27,10 @@ const Dates = () => {
                     Important Dates
                 </Heading>
                 <UnorderedList fontSize="16px">
-                    <ListItem>Call For Papers : 05 October 2022</ListItem>
-                    <ListItem>Acceptance : 18 December 2022</ListItem>
+                    <ListItem>Call For Papers : 05 Oct - 28 Nov 2022</ListItem>
+                    <ListItem>Paper Acceptance : 18 December 2022</ListItem>
                     <ListItem>Final Paper Acceptance: 15 February 2023</ListItem>
-                    <ListItem>Camera Ready: 15 March 2023</ListItem>
+                    <ListItem>Registration Date : 15 March 2023</ListItem>
                 </UnorderedList>
             </Box>
             <Box
