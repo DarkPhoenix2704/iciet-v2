@@ -34,12 +34,21 @@ const Submission = () => (
             <br />
             <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>
                 Submission Template:
-            </span>
+            </span>{' '}
             The following link point to an example paper containing detailed formatting guidelines
             for Publication. The publisher also constitutes templates for paper submissions.
         </Text>
         <Link href={template} target="_blank download">
-            <Button>Paper Template</Button>
+            <Button
+                marginBlockEnd="9px"
+                width="125px"
+                paddingBlock="18px"
+                background="brand.900"
+                color="white"
+                _hover={{ background: 'black', color: 'white' }}
+            >
+                Paper Template
+            </Button>
         </Link>
     </Layout>
 );
