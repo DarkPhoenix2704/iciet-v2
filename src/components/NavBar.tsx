@@ -1,5 +1,5 @@
 import { HamburgerIcon } from '@chakra-ui/icons';
-import { HStack, Text, VStack } from '@chakra-ui/react';
+import { HStack, Text, VStack, Link } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
@@ -139,7 +139,7 @@ const NavBar = () => {
                         Speakers
                     </Text>
                 </NavLink>
-                <NavLink to={{pathname: "https://www.keralatourism.org/"}} target="_blank">
+                <Link href="https://www.keralatourism.org/">
                     <Text
                         fontSize="18px"
                         minWidth="100vw"
@@ -154,7 +154,7 @@ const NavBar = () => {
                     >
                         Tourism
                     </Text>
-                </NavLink>
+                </Link>
                 <NavLink to="/contact">
                     <Text
                         fontSize="18px"
@@ -281,7 +281,7 @@ const NavBar = () => {
                         Speakers
                     </Text>
                 </NavLink>
-                <NavLink to={{pathname: "https://www.keralatourism.org/"}} target="_blank">
+                <Link href="https://www.keralatourism.org/">
                     <Text
                         fontSize="1.3rem"
                         padding="5px"
@@ -294,7 +294,7 @@ const NavBar = () => {
                     >
                         Tourism
                     </Text>
-                </NavLink>
+                </Link>
                 <NavLink to="/contact">
                     <Text
                         fontSize="1.3rem"
