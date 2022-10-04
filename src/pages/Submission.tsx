@@ -24,8 +24,9 @@ const Submission = () => (
             <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Format:</span> The
             abstract should be submitted in the format of MS Word (.doc or .docx) document /PDF.
             <br />
-            <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Review:</span> Reviews
-            will be handled directly by the technical program committee.
+            <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Review:</span> All
+            submitted papers are subject to strict double-blind peer review process by at least two
+            international reviewers that are experts in the area of the particular paper
             <br />
             <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Note:</span> Documents
             that do not conform to the guidelines will not be preceded to the next stage and also

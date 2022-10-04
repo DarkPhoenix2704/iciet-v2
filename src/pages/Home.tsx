@@ -29,7 +29,7 @@ const Home = () => (
         <Text fontSize="16px" marginBlock="18px" textAlign="justify" lineHeight="25px">
             ICIET-2023 is the IEEE International Conference organized by Ilahia College of
             Engineering and Technology, Muvattupuzha, Kerala, India. This conference aims to bring
-            together the researchers, engineers, academicians as well as industrial professionals
+            together the Researchers, Engineers, Academicians as well as Industrial Professionals
             from all over the world to present their research results and development activities in
             the field of Engineering and Technology. The conference will provide an excellent
             international forum for sharing knowledge and results in Engineering and Technology.
