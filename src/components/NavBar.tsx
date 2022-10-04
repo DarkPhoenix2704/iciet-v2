@@ -139,6 +139,22 @@ const NavBar = () => {
                         Speakers
                     </Text>
                 </NavLink>
+                <NavLink to="https://www.keralatourism.org/">
+                    <Text
+                        fontSize="18px"
+                        minWidth="100vw"
+                        fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
+                        _hover={{
+                            textDecoration: 'underline',
+                            textDecorationColor: 'white',
+                            textUnderlineOffset: '5px',
+                        }}
+                    >
+                        Tourism
+                    </Text>
+                </NavLink>
                 <NavLink to="/contact">
                     <Text
                         fontSize="18px"
@@ -263,6 +279,20 @@ const NavBar = () => {
                         }}
                     >
                         Speakers
+                    </Text>
+                </NavLink>
+                <NavLink to="https://www.keralatourism.org">
+                    <Text
+                        fontSize="1.3rem"
+                        padding="5px"
+                        fontWeight="light"
+                        _hover={{
+                            textDecoration: 'underline',
+                            textDecorationColor: 'white',
+                            textUnderlineOffset: '5px',
+                        }}
+                    >
+                        Tourism
                     </Text>
                 </NavLink>
                 <NavLink to="/contact">
