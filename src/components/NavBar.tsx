@@ -139,7 +139,7 @@ const NavBar = () => {
                         Speakers
                     </Text>
                 </NavLink>
-                <NavLink to="https://www.keralatourism.org/">
+                <NavLink to={{pathname: "https://www.keralatourism.org/"}} target="_blank">
                     <Text
                         fontSize="18px"
                         minWidth="100vw"
@@ -281,7 +281,7 @@ const NavBar = () => {
                         Speakers
                     </Text>
                 </NavLink>
-                <NavLink to="https://www.keralatourism.org">
+                <NavLink to={{pathname: "https://www.keralatourism.org/"}} target="_blank">
                     <Text
                         fontSize="1.3rem"
                         padding="5px"
