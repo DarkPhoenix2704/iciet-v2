@@ -1,7 +1,7 @@
-import { Button, Heading, Link, Text } from '@chakra-ui/react';
+import { Button, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
+import fileDownload from 'js-file-download';
 import Layout from '../layout';
-import template from '../../assets/paper-template.docx';
 
 const Submission = () => (
     <Layout>
@@ -39,19 +39,18 @@ const Submission = () => (
             The following link point to an example paper containing detailed formatting guidelines
             for Publication. The publisher also constitutes templates for paper submissions.
         </Text>
-        <Link href={template} target="_blank download">
-            <Button
-                marginBlockEnd="9px"
-                width="125px"
-                paddingInline="5px"
-                paddingBlock="18px"
-                background="brand.900"
-                color="white"
-                _hover={{ background: 'black', color: 'white' }}
-            >
-                Paper Template
-            </Button>
-        </Link>
+        <Button
+            marginBlockEnd="9px"
+            width="125px"
+            paddingInline="5px"
+            paddingBlock="18px"
+            background="brand.900"
+            color="white"
+            onClick={() => fileDownload('/paper-template.docx', 'paper-template.docx')}
+            _hover={{ background: 'black', color: 'white' }}
+        >
+            Paper Template
+        </Button>
     </Layout>
 );
 export default Submission;

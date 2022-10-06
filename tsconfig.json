@@ -1,17 +1,20 @@
 {
     "compilerOptions": {
-        "jsx": "react",
-        "forceConsistentCasingInFileNames": true,
-        "module": "commonjs",
-        "strict": true,
-        "noImplicitAny": true,
-        "outDir": "./build/",
-        "preserveConstEnums": true,
-        "removeComments": true,
-        "sourceMap": true,
         "target": "es5",
-        "esModuleInterop": true
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "incremental": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve"
     },
-    "exclude": ["webpack.config.js", "node_modules", "build"],
-    "include": ["src/**/**/**/**/*", "src/types/index.d.ts"]
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules", "next.config.js"]
 }

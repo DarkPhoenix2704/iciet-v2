@@ -1,6 +1,6 @@
 import { Heading, Text, Divider, Button } from '@chakra-ui/react';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import Link from 'next/link';
 import Layout from '../layout';
 
 const Home = () => (
@@ -24,7 +24,7 @@ const Home = () => (
             color="white"
             _hover={{ background: 'black', color: 'white' }}
         >
-            <NavLink to="/registration">Register Now</NavLink>
+            <Link href="/registration">Register Now</Link>
         </Button>
         <Text fontSize="16px" marginBlock="18px" textAlign="justify" lineHeight="25px">
             ICIET-2023 is the IEEE International Conference organized by Ilahia College of

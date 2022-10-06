@@ -2,7 +2,7 @@ import { Container, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 import Layout from '../layout';
 
-const Publications = () => (
+const Publication = () => (
     <Layout>
         <Heading fontWeight="600" marginTop="18px" fontSize="26px">
             Publications
@@ -14,4 +14,4 @@ const Publications = () => (
         </Container>
     </Layout>
 );
-export default Publications;
+export default Publication;

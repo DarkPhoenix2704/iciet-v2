@@ -15,6 +15,7 @@ const Committee = () => (
                 </Text>
                 {item.members.map((member) => (
                     <Box
+                        key={member.name}
                         marginBlock="4px"
                         border="1px solid grey"
                         borderRadius="5px"
