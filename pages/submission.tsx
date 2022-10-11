@@ -46,7 +46,7 @@ const Submission = () => (
             paddingBlock="18px"
             background="brand.900"
             color="white"
-            onClick={() => fileDownload('/paper-template.docx', 'paper-template.docx')}
+            onClick={() => fileDownload('public/IEEE CONF TEMP A4.docx', 'IEEE CONF TEMP A4.docx')}
             _hover={{ background: 'black', color: 'white' }}
         >
             Paper Template
