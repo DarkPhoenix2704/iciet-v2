@@ -126,7 +126,7 @@ const committe = [
                 name: 'Mr. Navaz Meeran',
                 role: 'Vice Chairman, Eastern Group of Companies',
             },
-            
+
             {
                 name: 'Rosna P Haroon',
                 role: 'Asst. Prof. ICET',
@@ -231,6 +231,5 @@ const committe = [
             },
         ],
     },
-  
 ];
 export default committe;

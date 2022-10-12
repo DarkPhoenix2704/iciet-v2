@@ -22,7 +22,6 @@ const Committee = () => (
                         paddingInline="8px"
                         paddingBlock="9px"
                     >
-                       
                         <Text fontSize="16px">{member.name}</Text>
                         <Text fontSize="12px">{member.role}</Text>
                     </Box>
