@@ -39,18 +39,19 @@ const Submission = () => (
             The following link point to an example paper containing detailed formatting guidelines
             for Publication. The publisher also constitutes templates for paper submissions.
         </Text>
-        <Button
-            marginBlockEnd="9px"
-            width="125px"
-            paddingInline="5px"
-            paddingBlock="18px"
-            background="brand.900"
-            color="white"
-            onClick={() => fileDownload('/paper-template.doc', 'paper-template.doc')}
-            _hover={{ background: 'black', color: 'white' }}
-        >
-            Paper Template
-        </Button>
+        <a download href="paper-template.doc">
+            <Button
+                marginBlockEnd="9px"
+                width="125px"
+                paddingInline="5px"
+                paddingBlock="18px"
+                background="brand.900"
+                color="white"
+                _hover={{ background: 'black', color: 'white' }}
+            >
+                Paper Template
+            </Button>
+        </a>
     </Layout>
 );
 export default Submission;
