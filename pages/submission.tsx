@@ -1,6 +1,5 @@
 import { Button, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
-import fileDownload from 'js-file-download';
 import Layout from '../layout';
 
 const Submission = () => (
