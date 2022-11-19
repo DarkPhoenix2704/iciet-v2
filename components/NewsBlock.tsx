@@ -10,6 +10,15 @@ const NewsBlock = () => (
             <ListItem>
                 <Text fontSize="14px">Call for Papers: 05 October 2022</Text>
             </ListItem>
+            <ListItem>
+                <Text fontSize="14px">Paper Acceptance : 18 December 2022</Text>
+            </ListItem>
+            <ListItem>
+                <Text fontSize="14px">Camera Ready Copy: 15 February 2023</Text>
+            </ListItem>
+            <ListItem>
+                <Text fontSize="14px">Registration Date : 15 March 2023</Text>
+            </ListItem>
         </UnorderedList>
     </Box>
 );

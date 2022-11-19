@@ -32,7 +32,11 @@ const Home = () => (
             together the Researchers, Engineers, Academicians as well as Industrial Professionals
             from all over the world to present their research results and development activities in
             the field of Engineering and Technology. The conference will provide an excellent
-            international forum for sharing knowledge and results in Engineering and Technology.
+            international forum for sharing knowledge and results in Engineering and Technology to
+            discuss and exchange their knowledge in their areas of interest. The researchers in any
+            field of Engineering can get an opportunity to share their ideas and thereby get
+            directions for future research. Every innovative concept in any domain of Engineering
+            can be promoted by our proposed theme.
         </Text>
         <Heading fontWeight="600" marginTop="18px" fontSize="26px">
             About Us

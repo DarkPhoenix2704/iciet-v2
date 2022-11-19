@@ -29,7 +29,7 @@ const committe = [
         role: 'Conference General Chair',
         members: [
             {
-                name: 'Dr. Abdul Gafur M',
+                name: 'Prof. Dr. K A Navas',
                 role: 'Principal, Ilahia College of Engineering and Technology',
             },
         ],
@@ -71,7 +71,7 @@ const committe = [
                 role: 'Manager, ICET',
             },
             {
-                name: 'Prof. Dr. Abdul Gafur M',
+                name: 'Prof. Prof. Dr. K A Navas',
                 role: 'Principan, ICET',
             },
             {
@@ -194,7 +194,7 @@ const committe = [
         role: 'Technical Committe - Internal',
         members: [
             {
-                name: 'Dr. Abdul Gafur M',
+                name: 'Prof. Dr. K A Navas',
                 role: 'Principal, ICET',
             },
             {

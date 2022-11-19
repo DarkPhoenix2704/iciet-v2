@@ -4,7 +4,7 @@ import Dates from '../components/Dates';
 import NavBar from '../components/NavBar';
 import NewsBlock from '../components/NewsBlock';
 import Layout from '../layout';
-import Header from '../public/Header.svg';
+import Header from '../public/Header.png';
 import theme from '../theme';
 import '@fontsource/open-sans';
 
