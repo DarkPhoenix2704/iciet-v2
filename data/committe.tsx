@@ -71,8 +71,8 @@ const committe = [
                 role: 'Manager, ICET',
             },
             {
-                name: 'Prof. Prof. Dr. K A Navas',
-                role: 'Principan, ICET',
+                name: 'Prof. Dr. K A Navas',
+                role: 'Principal, ICET',
             },
             {
                 name: 'Mr. A A Rahim',
