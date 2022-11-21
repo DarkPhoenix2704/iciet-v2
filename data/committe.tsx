@@ -47,7 +47,7 @@ const committe = [
             },
             {
                 name: 'Dr. Sachin Gee Paul',
-                role: 'Asso. Professor(EEE),
+                role: 'Asso. Professor(EEE)',
             },
         ],
     },
