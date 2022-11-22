@@ -67,7 +67,7 @@ const committe = [
                 role: 'Treasurer, ICET',
             },
             {
-                name: "Dr. Faizal M H".
+                name: "Dr. Faizal M H",
                 role: "Vice Principal, ICET"
             },
             {
