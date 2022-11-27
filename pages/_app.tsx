@@ -1,5 +1,6 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import Image from 'next/future/image';
+import Head from 'next/head';
 import Dates from '../components/Dates';
 import NavBar from '../components/NavBar';
 import NewsBlock from '../components/NewsBlock';
@@ -7,7 +8,6 @@ import Layout from '../layout';
 import Header from '../public/Header.png';
 import theme from '../theme';
 import '@fontsource/open-sans';
-import Head from 'next/head';
 
 const MyApp = ({ Component, pageProps }: { Component: any; pageProps: any }) => (
     <ChakraProvider theme={theme}>
