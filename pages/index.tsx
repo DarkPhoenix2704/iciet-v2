@@ -1,4 +1,4 @@
-import { Heading, Text, Divider, Button } from '@chakra-ui/react';
+import { Heading, Text, Divider, Button, HStack } from '@chakra-ui/react';
 import React from 'react';
 import Link from 'next/link';
 import Layout from '../layout';
@@ -16,16 +16,30 @@ const Home = () => (
             borderBottomWidth="1px"
             width="80%"
         />
-        <Button
-            marginBlockStart="9px"
-            width="125px"
-            paddingBlock="18px"
-            background="brand.900"
-            color="white"
-            _hover={{ background: 'black', color: 'white' }}
-        >
-            <Link href="/registration">Register Now</Link>
-        </Button>
+        <HStack>
+            <Button
+                marginBlockStart="9px"
+                width="125px"
+                paddingBlock="18px"
+                background="brand.900"
+                color="white"
+                _hover={{ background: 'black', color: 'white' }}
+            >
+                <Link href="/registration">Register Now</Link>
+            </Button>
+            <a download href="Brochure.pdf">
+                <Button
+                    marginBlockStart="9px"
+                    width="125px"
+                    paddingBlock="18px"
+                    background="brand.900"
+                    color="white"
+                    _hover={{ background: 'black', color: 'white' }}
+                >
+                    Brochure
+                </Button>
+            </a>
+        </HStack>
         <Text fontSize="16px" marginBlock="18px" textAlign="justify" lineHeight="25px">
             ICIET-2023 is the IEEE International Conference organized by Ilahia College of
             Engineering and Technology, Muvattupuzha, Kerala, India. This conference aims to bring
