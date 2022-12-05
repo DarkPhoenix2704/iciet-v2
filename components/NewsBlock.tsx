@@ -8,10 +8,16 @@ const NewsBlock = () => (
         </Heading>
         <UnorderedList marginBlockStart="8px">
             <ListItem>
-                <Text fontSize="14px">Call for Papers: 05 October 2022</Text>
+                <Text fontSize="14px">
+                    {' '}
+                    Call For Papers : 05 Oct - <s>28 Nov 2022</s> 21 December 2022
+                </Text>
             </ListItem>
             <ListItem>
-                <Text fontSize="14px">Paper Acceptance : 18 December 2022</Text>
+                <Text fontSize="14px">
+                    Paper Acceptance : <s>18 December 2022</s>
+                    30 January 2023
+                </Text>
             </ListItem>
             <ListItem>
                 <Text fontSize="14px">Camera Ready Copy: 15 February 2023</Text>
