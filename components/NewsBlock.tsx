@@ -16,7 +16,7 @@ const NewsBlock = () => (
             <ListItem>
                 <Text fontSize="14px">
                     Paper Acceptance : <s>18 December 2022</s>
-                    30 January 2023
+                    07 January 2023
                 </Text>
             </ListItem>
             <ListItem>
