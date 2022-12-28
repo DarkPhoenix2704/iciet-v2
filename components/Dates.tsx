@@ -28,7 +28,7 @@ const Dates = () => {
                 </Heading>
                 <UnorderedList marginBlock="5px" fontSize={{ base: '16px', lg: '18px' }}>
                     <ListItem>Call For Papers : 05 Oct - 21 December 2022</ListItem>
-                    <ListItem>Paper Acceptance : 30 January 2023</ListItem>
+                    <ListItem>Paper Acceptance : 07 January 2023</ListItem>
                     <ListItem>Camera Ready Copy: 15 February 2023</ListItem>
                     <ListItem>Registration Date : 15 March 2023</ListItem>
                 </UnorderedList>
