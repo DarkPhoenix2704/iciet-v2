@@ -16,10 +16,6 @@ const Submission = () => (
             paper should fall under anyone of the most relevant themes mentioned in the conference
             Call for Papers.
             <br />
-            <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Length:</span> Papers
-            must be no longer than 15 pages, including all text, figures, and references. Please
-            download the paper template and follow the format carefully.
-            <br />
             <span style={{ fontWeight: 'bold', textDecoration: 'underline' }}>Format:</span> The
             abstract should be submitted in the format of MS Word (.doc or .docx) document /PDF.
             <br />
@@ -49,6 +45,19 @@ const Submission = () => (
                 _hover={{ background: 'black', color: 'white' }}
             >
                 Paper Template
+            </Button>
+        </a>
+        <a href="https://cmt3.research.microsoft.com/ICIET2023">
+            <Button
+                marginBlockEnd="9px"
+                width="125px"
+                paddingInline="5px"
+                paddingBlock="18px"
+                background="brand.900"
+                color="white"
+                _hover={{ background: 'black', color: 'white' }}
+            >
+                Submit Paper
             </Button>
         </a>
     </Layout>
