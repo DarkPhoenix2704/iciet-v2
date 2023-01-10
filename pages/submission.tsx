@@ -1,4 +1,4 @@
-import { Button, Heading, Text } from '@chakra-ui/react';
+import { Button, Heading, HStack, Text } from '@chakra-ui/react';
 import React from 'react';
 import Layout from '../layout';
 
@@ -34,32 +34,34 @@ const Submission = () => (
             The following link point to an example paper containing detailed formatting guidelines
             for Publication. The publisher also constitutes templates for paper submissions.
         </Text>
-        <a download href="paper-template.doc">
-            <Button
-                marginBlockEnd="9px"
-                width="125px"
-                paddingInline="5px"
-                paddingBlock="18px"
-                background="brand.900"
-                color="white"
-                _hover={{ background: 'black', color: 'white' }}
-            >
-                Paper Template
-            </Button>
-        </a>
-        <a href="https://cmt3.research.microsoft.com/ICIET2023">
-            <Button
-                marginBlockEnd="9px"
-                width="125px"
-                paddingInline="5px"
-                paddingBlock="18px"
-                background="brand.900"
-                color="white"
-                _hover={{ background: 'black', color: 'white' }}
-            >
-                Submit Paper
-            </Button>
-        </a>
+        <HStack spacing="8px">
+            <a download href="paper-template.doc">
+                <Button
+                    marginBlockEnd="9px"
+                    width="125px"
+                    paddingInline="5px"
+                    paddingBlock="18px"
+                    background="brand.900"
+                    color="white"
+                    _hover={{ background: 'black', color: 'white' }}
+                >
+                    Paper Template
+                </Button>
+            </a>
+            <a href="https://cmt3.research.microsoft.com/ICIET2023">
+                <Button
+                    marginBlockEnd="9px"
+                    width="125px"
+                    paddingInline="5px"
+                    paddingBlock="18px"
+                    background="brand.900"
+                    color="white"
+                    _hover={{ background: 'black', color: 'white' }}
+                >
+                    Submit Paper
+                </Button>
+            </a>
+        </HStack>
     </Layout>
 );
 export default Submission;
