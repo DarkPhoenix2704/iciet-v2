@@ -44,6 +44,23 @@ const NavBar = () => {
                         Home
                     </Text>
                 </Link>
+                <Link href="/about-icet">
+                    <Text
+                        cursor="pointer"
+                        fontSize="18px"
+                        minWidth="100vw"
+                        fontWeight="light"
+                        paddingBlock="4px"
+                        paddingInline="10px"
+                        _hover={{
+                            textDecoration: 'underline',
+                            textDecorationColor: 'white',
+                            textUnderlineOffset: '5px',
+                        }}
+                    >
+                        About ICET
+                    </Text>
+                </Link>
                 <Link href="/committee">
                     <Text
                         cursor="pointer"
@@ -194,7 +211,7 @@ const NavBar = () => {
             >
                 <Link href="/">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         cursor="pointer"
                         fontWeight="light"
                         padding="5px"
@@ -209,7 +226,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/committee">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         cursor="pointer"
                         padding="5px"
                         fontWeight="light"
@@ -222,9 +239,24 @@ const NavBar = () => {
                         Committee
                     </Text>
                 </Link>
+                <Link href="/about-icet">
+                    <Text
+                        fontSize="1rem"
+                        cursor="pointer"
+                        padding="5px"
+                        fontWeight="light"
+                        _hover={{
+                            textDecoration: 'underline',
+                            textDecorationColor: 'white',
+                            textUnderlineOffset: '5px',
+                        }}
+                    >
+                        About ICET
+                    </Text>
+                </Link>
                 <Link href="/cfp">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         cursor="pointer"
                         padding="5px"
                         fontWeight="light"
@@ -239,7 +271,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/publication">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         cursor="pointer"
                         padding="5px"
                         fontWeight="light"
@@ -254,7 +286,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/submission">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         padding="5px"
                         fontWeight="light"
                         cursor="pointer"
@@ -269,7 +301,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/registration">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         padding="5px"
                         cursor="pointer"
                         fontWeight="light"
@@ -284,7 +316,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/speakers">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         cursor="pointer"
                         padding="5px"
                         fontWeight="light"
@@ -299,7 +331,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="https://www.keralatourism.org">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         cursor="pointer"
                         padding="5px"
                         fontWeight="light"
@@ -314,7 +346,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/contact">
                     <Text
-                        fontSize="1.3rem"
+                        fontSize="1rem"
                         padding="5px"
                         cursor="pointer"
                         fontWeight="light"
