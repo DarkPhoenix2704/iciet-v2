@@ -8,6 +8,8 @@ import Layout from '../layout';
 import Header from '../public/Header.png';
 import theme from '../theme';
 import '@fontsource/open-sans';
+import Marquee from '../components/Marquee';
+import Footer from '../components/Footer';
 
 const MyApp = ({ Component, pageProps }: { Component: any; pageProps: any }) => (
     <ChakraProvider theme={theme}>
@@ -22,7 +24,9 @@ const MyApp = ({ Component, pageProps }: { Component: any; pageProps: any }) => 
         <Layout>
             <NewsBlock />
         </Layout>
+        <Marquee />
         <Component {...pageProps} />
+        <Footer />
     </ChakraProvider>
 );
 

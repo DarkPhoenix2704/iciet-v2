@@ -34,6 +34,7 @@ const NavBar = () => {
                         fontWeight="light"
                         paddingBlock="4px"
                         paddingInline="10px"
+                        cursor="pointer"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -45,6 +46,7 @@ const NavBar = () => {
                 </Link>
                 <Link href="/committee">
                     <Text
+                        cursor="pointer"
                         fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
@@ -65,6 +67,7 @@ const NavBar = () => {
                         minWidth="100vw"
                         fontWeight="light"
                         paddingBlock="4px"
+                        cursor="pointer"
                         paddingInline="10px"
                         _hover={{
                             textDecoration: 'underline',
@@ -80,6 +83,7 @@ const NavBar = () => {
                         fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
+                        cursor="pointer"
                         paddingBlock="4px"
                         paddingInline="10px"
                         _hover={{
@@ -94,6 +98,7 @@ const NavBar = () => {
                 <Link href="/submission">
                     <Text
                         fontSize="18px"
+                        cursor="pointer"
                         minWidth="100vw"
                         fontWeight="light"
                         paddingBlock="4px"
@@ -112,6 +117,7 @@ const NavBar = () => {
                         fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
+                        cursor="pointer"
                         paddingBlock="4px"
                         paddingInline="10px"
                         _hover={{
@@ -128,6 +134,7 @@ const NavBar = () => {
                         fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
+                        cursor="pointer"
                         paddingBlock="4px"
                         paddingInline="10px"
                         _hover={{
@@ -143,6 +150,7 @@ const NavBar = () => {
                     <Text
                         fontSize="18px"
                         minWidth="100vw"
+                        cursor="pointer"
                         fontWeight="light"
                         paddingBlock="4px"
                         paddingInline="10px"
@@ -160,6 +168,7 @@ const NavBar = () => {
                         fontSize="18px"
                         minWidth="100vw"
                         fontWeight="light"
+                        cursor="pointer"
                         paddingBlock="4px"
                         paddingInline="10px"
                         _hover={{
@@ -186,6 +195,7 @@ const NavBar = () => {
                 <Link href="/">
                     <Text
                         fontSize="1.3rem"
+                        cursor="pointer"
                         fontWeight="light"
                         padding="5px"
                         _hover={{
@@ -200,6 +210,7 @@ const NavBar = () => {
                 <Link href="/committee">
                     <Text
                         fontSize="1.3rem"
+                        cursor="pointer"
                         padding="5px"
                         fontWeight="light"
                         _hover={{
@@ -214,6 +225,7 @@ const NavBar = () => {
                 <Link href="/cfp">
                     <Text
                         fontSize="1.3rem"
+                        cursor="pointer"
                         padding="5px"
                         fontWeight="light"
                         _hover={{
@@ -228,6 +240,7 @@ const NavBar = () => {
                 <Link href="/publication">
                     <Text
                         fontSize="1.3rem"
+                        cursor="pointer"
                         padding="5px"
                         fontWeight="light"
                         _hover={{
@@ -244,6 +257,7 @@ const NavBar = () => {
                         fontSize="1.3rem"
                         padding="5px"
                         fontWeight="light"
+                        cursor="pointer"
                         _hover={{
                             textDecoration: 'underline',
                             textDecorationColor: 'white',
@@ -257,6 +271,7 @@ const NavBar = () => {
                     <Text
                         fontSize="1.3rem"
                         padding="5px"
+                        cursor="pointer"
                         fontWeight="light"
                         _hover={{
                             textDecoration: 'underline',
@@ -270,6 +285,7 @@ const NavBar = () => {
                 <Link href="/speakers">
                     <Text
                         fontSize="1.3rem"
+                        cursor="pointer"
                         padding="5px"
                         fontWeight="light"
                         _hover={{
@@ -284,6 +300,7 @@ const NavBar = () => {
                 <Link href="https://www.keralatourism.org">
                     <Text
                         fontSize="1.3rem"
+                        cursor="pointer"
                         padding="5px"
                         fontWeight="light"
                         _hover={{
@@ -299,6 +316,7 @@ const NavBar = () => {
                     <Text
                         fontSize="1.3rem"
                         padding="5px"
+                        cursor="pointer"
                         fontWeight="light"
                         _hover={{
                             textDecoration: 'underline',
