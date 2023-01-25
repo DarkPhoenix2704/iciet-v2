@@ -1,6 +1,7 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import Image from 'next/future/image';
 import Head from 'next/head';
+import Script from 'next/script';
 import Dates from '../components/Dates';
 import NavBar from '../components/NavBar';
 import NewsBlock from '../components/NewsBlock';
@@ -18,6 +19,19 @@ const MyApp = ({ Component, pageProps }: { Component: any; pageProps: any }) => 
                 IEEE International Conference on Innovation In Engineering and Technology 2023
             </title>
         </Head>
+        <Script
+            src="https://www.googletagmanager.com/gtag/js?id=G-623DZ7D71P"
+            strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+            {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-623DZ7D71P');
+        `}
+        </Script>
         <Image src={Header} alt="Header" width="100vw" />
         <Dates />
         <NavBar />
