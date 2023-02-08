@@ -21,7 +21,13 @@ const NewsBlock = () => (
                 <Text fontSize="14px">Camera Ready Copy: 15 March 2023</Text>
             </ListItem>
             <ListItem>
+                <Text fontSize="14px">Paper Acceptance: 31 March 2023</Text>
+            </ListItem>
+            <ListItem>
                 <Text fontSize="14px">Registration Date : 17 April 2023</Text>
+            </ListItem>
+            <ListItem>
+                <Text fontSize="14px">Early Bird Registration Closes : 15 May 2023</Text>
             </ListItem>
         </UnorderedList>
     </Box>
