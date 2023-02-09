@@ -67,8 +67,8 @@ const committe = [
                 role: 'Treasurer, ICET',
             },
             {
-                name: "Dr. Faizal M H",
-                role: "Vice Principal, ICET"
+                name: 'Dr. Faizal M H',
+                role: 'Vice Principal, ICET',
             },
             {
                 name: 'Prof. Dr. K P Sudheer',
@@ -99,17 +99,17 @@ const committe = [
                 role: 'Asso. Prof. GEC Thrissur',
             },
             {
-                name: "Dr. Mini Ulanat",
-                role: "Section Chair, IEEE Kerala Section"
+                name: 'Dr. Mini Ulanat',
+                role: 'Section Chair, IEEE Kerala Section',
             },
             {
-                name: "Dr. Chinmoy Saha",
-                role: "Chairman, IEEE Microwave Theory and Technics Chapter, IEEE Kerala Section"
+                name: 'Dr. Chinmoy Saha',
+                role: 'Chairman, IEEE Microwave Theory and Technics Chapter, IEEE Kerala Section',
             },
             {
-                name: "Dr. Biju K",
-                role: "Treasurer, IEEE Kerala Section"
-            }
+                name: 'Dr. Biju K',
+                role: 'Treasurer, IEEE Kerala Section',
+            },
         ],
     },
     {
@@ -152,32 +152,32 @@ const committe = [
                 role: 'Professor, RIT Kottayam',
             },
             {
-                name: "Dr. Anilkumar C V",
-                role: "Professor, College of Engineering, Karunagappaly"
+                name: 'Dr. Anilkumar C V',
+                role: 'Professor, College of Engineering, Karunagappaly',
             },
             {
-                name: "Er. Jithin Krishnan",
-                role: "Scientist, SCTIMST, Thiruvananthapuram"
+                name: 'Er. Jithin Krishnan',
+                role: 'Scientist, SCTIMST, Thiruvananthapuram',
             },
             {
-                name: "Dr. Isha T B",
-                role: "Prof. Amrita Viswa Vidyapeetham, Coimbatore"
+                name: 'Dr. Isha T B',
+                role: 'Prof. Amrita Viswa Vidyapeetham, Coimbatore',
             },
             {
-                name: "Dr. Jubilant Job",
-                role: "Prof., Saintgits College of Engineering, Kottayam"
+                name: 'Dr. Jubilant Job',
+                role: 'Prof., Saintgits College of Engineering, Kottayam',
             },
             {
-                name: "Dr. Barakkath Nisha U",
-                role: "Asso. Prof., Sreekrishna College of Engineering, Coimbatore"
+                name: 'Dr. Barakkath Nisha U',
+                role: 'Asso. Prof., Sreekrishna College of Engineering, Coimbatore',
             },
             {
-                name: "Dr. Varghese Paul",
-                role: "Prof., Rajagiri School of Engineering & Technology, Ernakulam"
+                name: 'Dr. Varghese Paul',
+                role: 'Prof., Rajagiri School of Engineering & Technology, Ernakulam',
             },
             {
-                name: "Dr. Janahanlal Stephen",
-                role: "Retd. Prof., M A College of Engineering, Kothamangalam"
+                name: 'Dr. Janahanlal Stephen',
+                role: 'Retd. Prof., M A College of Engineering, Kothamangalam',
             },
             {
                 name: 'Dr. Laju Kottallil',
@@ -208,17 +208,17 @@ const committe = [
                 role: 'Professor, ICET',
             },
             {
-                name: "Dr. Jinu Mohan", 
-                role: "Asso. Prof., ICET"
+                name: 'Dr. Jinu Mohan',
+                role: 'Asso. Prof., ICET',
             },
             {
-                name: "Dr. P A Habeeb Rahiman",
-                role: "Professor, ICET"
+                name: 'Dr. P A Habeeb Rahiman',
+                role: 'Professor, ICET',
             },
             {
-                name: "Dr. Shebin Sharief",
-                role: "Asso. Prof., ICET"
-            }
+                name: 'Dr. Shebin Sharief',
+                role: 'Asso. Prof., ICET',
+            },
         ],
     },
 ];
