@@ -7,6 +7,7 @@ import {
     Tbody,
     Td,
     Th,
+    Text,
     Thead,
     Tr,
 } from '@chakra-ui/react';
@@ -18,8 +19,21 @@ const Registration = () => (
             Registration
         </Heading>
         <Heading fontWeight="400" marginBlock="18px" fontSize="18px">
-            Registration will be open soon
+            Deposit registration fee in following account.
         </Heading>
+        <Text>
+            Name of Account: Ilahia College of Engineering and Technology
+            <br />
+            Account Number: 10090100255115
+            <br />
+            IFSC: FDRL0001009
+            <br />
+            Name of Bank and Branch: Federal Bank, Muvattupuzha
+            <br />
+            Type of Account: Savings Swift Code: FDRLINBBIBD
+            <br />
+            Details of transaction may be uploaded trough your account in Microsoft CMT platform.
+        </Text>
         <TableContainer marginBlock="18px">
             <Table variant="striped" style={{ border: '1px solid', borderCollapse: 'collapse' }}>
                 <TableCaption>Registration Fees</TableCaption>
