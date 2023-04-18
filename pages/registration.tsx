@@ -9,6 +9,7 @@ import {
     Th,
     Text,
     Thead,
+    Button,
     Tr,
 } from '@chakra-ui/react';
 import Layout from '../layout';
@@ -34,6 +35,20 @@ const Registration = () => (
             <br />
             Details of transaction may be uploaded trough your account in Microsoft CMT platform.
         </Text>
+        <Button
+            marginBlockEnd="9px"
+            width="125px"
+            paddingInline="5px"
+            paddingBlock="18px"
+            background="brand.900"
+            color="white"
+            _hover={{ background: 'black', color: 'white' }}
+            onClick={() => {
+                navigator.clipboard.writeText('http://ieee.icet.ac.in/registration.html');
+            }}
+        >
+            Click to Copy Registration Link
+        </Button>
         <TableContainer marginBlock="18px">
             <Table variant="striped" style={{ border: '1px solid', borderCollapse: 'collapse' }}>
                 <TableCaption>Registration Fees</TableCaption>
