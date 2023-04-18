@@ -37,7 +37,7 @@ const Registration = () => (
         </Text>
         <Button
             marginBlockEnd="9px"
-            width="125px"
+            width="150px"
             paddingInline="5px"
             paddingBlock="18px"
             background="brand.900"
@@ -47,7 +47,7 @@ const Registration = () => (
                 navigator.clipboard.writeText('http://ieee.icet.ac.in/registration.html');
             }}
         >
-            Click to Copy Registration Link
+            Registration Link
         </Button>
         <TableContainer marginBlock="18px">
             <Table variant="striped" style={{ border: '1px solid', borderCollapse: 'collapse' }}>
