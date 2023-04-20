@@ -11,6 +11,7 @@ import {
     Thead,
     Button,
     Tr,
+    Image,
 } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import Layout from '../layout';
@@ -46,6 +47,7 @@ const Registration = () => {
                 Details of transaction may be uploaded trough your account in Microsoft CMT
                 platform.
             </Text>
+            <Image src="/bank.jpg" alt="bank" />
             <Button
                 marginBlockEnd="9px"
                 width="150px"
