@@ -46,7 +46,9 @@ const Registration = () => {
                 <br />
                 Name of Bank and Branch: Federal Bank, Muvattupuzha
                 <br />
-                Type of Account: Savings Swift Code: FDRLINBBIBD
+                Type of Account: Savings
+                <br />
+                Swift Code: FDRLINBBIBD
                 <br />
                 Details of transaction may be uploaded trough your account in Microsoft CMT
                 platform.
