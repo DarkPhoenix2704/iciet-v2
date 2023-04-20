@@ -22,6 +22,13 @@ const Registration = () => {
             <Heading fontWeight="600" marginTop="18px" fontSize="26px">
                 Registration
             </Heading>
+            <Text>
+                IEEE Kerala Section and Ilahia College of Engineering and Technology is jointly
+                organizing an International Conference to bring together Researchers, Academicians
+                and Professionals all over the world. The Conference will be hosted physically, at
+                Ilahia College of Engineering and Technology, Muvattupuzha, on 13th and 14th July,
+                2023.
+            </Text>
             <Heading fontWeight="400" marginBlock="18px" fontSize="18px">
                 Deposit registration fee in following account.
             </Heading>
