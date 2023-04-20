@@ -23,7 +23,11 @@ const Registration = () => {
             <Heading fontWeight="600" marginTop="18px" fontSize="26px">
                 Registration
             </Heading>
-            <Text>
+            <Text
+                style={{
+                    marginTop: '18px',
+                }}
+            >
                 IEEE Kerala Section and Ilahia College of Engineering and Technology is jointly
                 organizing an International Conference to bring together Researchers, Academicians
                 and Professionals all over the world. The Conference will be hosted physically, at
@@ -47,7 +51,7 @@ const Registration = () => {
                 Details of transaction may be uploaded trough your account in Microsoft CMT
                 platform.
             </Text>
-            <Image src="/bank.jpg" alt="bank" />
+            <Image marginBlock="10px" width="350px" src="/bank.jpg" alt="bank" />
             <Button
                 marginBlockEnd="9px"
                 width="150px"
