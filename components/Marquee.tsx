@@ -46,7 +46,7 @@ const Marquee = () => {
                 animate="animate"
             >
                 <Text fontSize="16px" textColor="white" ref={ref}>
-                    CFP Date Extended
+                    Registration Date Extended
                 </Text>
             </motion.div>
         </HStack>

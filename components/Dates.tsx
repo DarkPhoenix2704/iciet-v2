@@ -30,7 +30,7 @@ const Dates = () => {
                     <ListItem>Paper Submission Open: 05 October 2022</ListItem>
                     <ListItem>Paper Submission Due Date: 15 February 2022</ListItem>
                     <ListItem>Paper Acceptance : 31 March 2023</ListItem>
-                    <ListItem>Registration Date : 17 April 2023</ListItem>
+                    <ListItem>Registration Date : 31 May 2023</ListItem>
                     <ListItem>Early Bird Author Registration Closes: 15 May 2023</ListItem>
                 </UnorderedList>
             </Box>
